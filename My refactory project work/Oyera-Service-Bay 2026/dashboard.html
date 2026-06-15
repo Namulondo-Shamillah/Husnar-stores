@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+</head>
+<style>
+    *, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-color: lime;
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .card-container, .table-section {
+        background-color: aquamarine;
+        margin: 20px 20px 20px 20px;
+        padding: 12px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #quick-access-section {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center
+    }
+
+    #cards-section{
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #cards-section section {
+        /* background-color: orange; */
+        padding: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 8px;
+    }
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#table-btn {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+</style>
+    
+<body>
+  
+ <div class="container">
+ <div class="card-container">
+    <div id="quick-access-section">
+    <h1>Quick Access</h1>
+    <p>...</p>
+    </div>
+    <div id="cards-section">
+        <section>
+            <p class="card-title">No. of Technicians</p>
+            <p class="sub-title"><span>6 tech</span> 5 online</p>
+            </section>
+            <section>
+            <p class="card-title">No. of cars in garage</p>
+            <p class="sub-title"><span>5 cars</span></p>
+        </section>
+        <section><p class="card-title">No. of Customers</p>
+            <p class="sub-title"><span>10 customers</span></p></section>
+        <section><p class="card-title">Inventory</p>
+            <p class="sub-title"><span>10 spare parts</span></p></section>
+        </div>
+ </div>
+ <div class="table-section">
+    <div id="table-btn">
+        <button type="button">Add New Customer</button>
+    </div>
+    
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <th>Name of customer</th>
+    <th>Contact</th>
+    <th>Gender</th>
+    <th>Car type</th>
+    <th>Service offered</th>
+    <th>Payment status</th>
+  </tr>
+  <tr>
+    <td>Nakubulwa Resty</td>
+    <td>0701652059</td>
+    <td>Female</td>
+    <td>BMW</td>
+    <td>Engine repairs</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Ndego Hakim</td>
+    <td>0703349954</td>
+    <td>Male</td>
+    <td>Range rover</td>
+    <td>Routine Maintenance</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Naginda Angel</td>
+    <td>0785664344</td>
+    <td>Female</td>
+    <td>Wish</td>
+    <td>Engine repairs</td>
+    <td>Pending</td>
+  </tr>
+  <tr>
+    <td>Asiimwe Godwin</td>
+    <td>0756432345</td>
+    <td>Male</td>
+    <td>Noah</td>
+    <td>Pre-purchase inspection</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Namulondo Shamillah</td>
+    <td>0785454434</td>
+    <td>Female</td>
+    <td>Rolls Royce</td>
+    <td>Engine repairs</td>
+    <td>Completed</td>
+  </tr>
+  <tr>
+    <td>Wasswa Godwin</td>
+    <td>0764847333</td>
+    <td>Male</td>
+    <td>Noah</td>
+    <td>Battery Testing</td>
+    <td>Pending</td>
+  </tr>
+</table></div> 
+ </div>
+
+    
+</body>
+</html>
