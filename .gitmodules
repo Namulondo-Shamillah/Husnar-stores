@@ -1,0 +1,3 @@
+[submodule "covidStores"]
+path = covidStores
+url = https://github.com/isaacssemugenyi/covidStores.git
